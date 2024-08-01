@@ -18,7 +18,7 @@ val onErrorLight = Color(0xFFFFFFFF)
 val errorContainerLight = Color(0xFFFFDAD6)
 val onErrorContainerLight = Color(0xFF410002)
 val backgroundLight = Color(0xFFFFF8F7)
-val onBackgroundLight = Color(0xFF291718)
+val onBackgroundLight = Color(0xFFFFF8F7)
 val surfaceLight = Color(0xFFFFF8F7)
 val onSurfaceLight = Color(0xFF291718)
 val surfaceVariantLight = Color(0xFFFFDADB)
@@ -36,7 +36,7 @@ val surfaceContainerLowLight = Color(0xFFFFF0F0)
 val surfaceContainerLight = Color(0xFFFFE9E9)
 val surfaceContainerHighLight = Color(0xFFFFE1E2)
 val surfaceContainerHighestLight = Color(0xFFFCDBDC)
-
+/*
 val primaryLightMediumContrast = Color(0xFF8A0029)
 val onPrimaryLightMediumContrast = Color(0xFFFFFFFF)
 val primaryContainerLightMediumContrast = Color(0xFFE7064C)
@@ -107,7 +107,7 @@ val surfaceContainerLowestLightHighContrast = Color(0xFFFFFFFF)
 val surfaceContainerLowLightHighContrast = Color(0xFFFFF0F0)
 val surfaceContainerLightHighContrast = Color(0xFFFFE9E9)
 val surfaceContainerHighLightHighContrast = Color(0xFFFFE1E2)
-val surfaceContainerHighestLightHighContrast = Color(0xFFFCDBDC)
+val surfaceContainerHighestLightHighContrast = Color(0xFFFCDBDC)*/
 
 val primaryDark = Color(0xFFFFB2B8)
 val onPrimaryDark = Color(0xFF67001D)
@@ -144,7 +144,7 @@ val surfaceContainerLowDark = Color(0xFF291718)
 val surfaceContainerDark = Color(0xFF2D1B1C)
 val surfaceContainerHighDark = Color(0xFF382526)
 val surfaceContainerHighestDark = Color(0xFF442F31)
-
+/*
 val primaryDarkMediumContrast = Color(0xFFFFB8BD)
 val onPrimaryDarkMediumContrast = Color(0xFF36000B)
 val primaryContainerDarkMediumContrast = Color(0xFFFF506D)
@@ -215,7 +215,7 @@ val surfaceContainerLowestDarkHighContrast = Color(0xFF190A0B)
 val surfaceContainerLowDarkHighContrast = Color(0xFF291718)
 val surfaceContainerDarkHighContrast = Color(0xFF2D1B1C)
 val surfaceContainerHighDarkHighContrast = Color(0xFF382526)
-val surfaceContainerHighestDarkHighContrast = Color(0xFF442F31)
+val surfaceContainerHighestDarkHighContrast = Color(0xFF442F31)*/
 
 
 

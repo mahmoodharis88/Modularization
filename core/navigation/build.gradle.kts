@@ -5,10 +5,6 @@ plugins {
 }
 
 android {
-    namespace = "com.sample.mutimodulesample.feature.onboarding"
+    namespace = "com.sample.mutimodulesample.core.navigation"
 
-}
-
-dependencies {
-    implementation(projects.core.navigation)
 }

@@ -7,3 +7,7 @@ android {
     namespace = "com.sample.mutimodulesample.core.ui"
 
 }
+
+dependencies {
+    implementation(projects.core.designSystem)
+}

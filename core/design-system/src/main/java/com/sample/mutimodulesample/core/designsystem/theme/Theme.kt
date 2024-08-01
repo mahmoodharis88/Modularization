@@ -86,7 +86,7 @@ private val darkScheme = darkColorScheme(
     surfaceContainerHigh = surfaceContainerHighDark,
     surfaceContainerHighest = surfaceContainerHighestDark,
 )
-
+/*
 private val mediumContrastLightColorScheme = lightColorScheme(
     primary = primaryLightMediumContrast,
     onPrimary = onPrimaryLightMediumContrast,
@@ -237,7 +237,7 @@ private val highContrastDarkColorScheme = darkColorScheme(
     surfaceContainer = surfaceContainerDarkHighContrast,
     surfaceContainerHigh = surfaceContainerHighDarkHighContrast,
     surfaceContainerHighest = surfaceContainerHighestDarkHighContrast,
-)
+)*/
 
 @Immutable
 data class ColorFamily(
@@ -255,7 +255,7 @@ val unspecified_scheme = ColorFamily(
 fun MutiModuleSampleTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    dynamicColor: Boolean = false,
     content: @Composable() () -> Unit
 ) {
   val colorScheme = when {
