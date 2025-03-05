@@ -13,8 +13,8 @@ import org.gradle.kotlin.dsl.getByType
 class AndroidFeatureConventionPlugin : Plugin<Project> {
     override fun apply(target: Project) {
         with(target) {
-            apply(plugin = "mutimodulesample.android.library")
-            apply(plugin = "mutimodulesample.android.hilt")
+            apply(plugin = "blooddonation.android.library")
+            apply(plugin = "blooddonation.android.hilt")
 
             val extension = extensions.getByType<LibraryAndroidComponentsExtension>()
             configureAndroidFeature(extension)

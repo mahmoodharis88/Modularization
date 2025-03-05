@@ -1,11 +1,11 @@
 plugins {
-    alias(libs.plugins.mutimodulesample.android.library)
-    alias(libs.plugins.mutimodulesample.android.lib.compose)
-    alias(libs.plugins.mutimodulesample.android.feature)
+    alias(libs.plugins.blooddonation.android.library)
+    alias(libs.plugins.blooddonation.android.lib.compose)
+    alias(libs.plugins.blooddonation.android.feature)
 }
 
 android {
-    namespace = "com.sample.mutimodulesample.feature.onboarding"
+    namespace = "com.blood.donation.feature.onboarding"
 
 }
 

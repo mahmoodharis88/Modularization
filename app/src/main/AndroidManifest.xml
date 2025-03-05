@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools" >
 
     <application
-        android:name="com.sample.mutimodulesample.SampleApplication"
+        android:name="com.blood.donation.SampleApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -14,9 +14,8 @@
         android:theme="@style/Theme.App.Starting"
         tools:targetApi="31" >
         <activity
-            android:name="com.sample.mutimodulesample.MainActivity"
+            android:name="com.blood.donation.MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.App.Starting" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

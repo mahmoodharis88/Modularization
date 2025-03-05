@@ -1,10 +1,10 @@
 plugins {
-    alias(libs.plugins.mutimodulesample.android.library)
-    alias(libs.plugins.mutimodulesample.android.lib.compose)
+    alias(libs.plugins.blooddonation.android.library)
+    alias(libs.plugins.blooddonation.android.lib.compose)
 }
 
 android {
-    namespace = "com.sample.mutimodulesample.core.designsystem"
+    namespace = "com.blood.donation.core.designsystem"
 
 }
 dependencies {

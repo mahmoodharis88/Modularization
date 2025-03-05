@@ -1,6 +1,6 @@
 plugins {
-    alias(libs.plugins.mutimodulesample.android.application)
-    alias(libs.plugins.mutimodulesample.android.app.compose)
+    alias(libs.plugins.blooddonation.android.application)
+    alias(libs.plugins.blooddonation.android.app.compose)
     id("kotlin-kapt")
     id("dagger.hilt.android.plugin")
 }

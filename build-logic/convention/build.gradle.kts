@@ -23,29 +23,29 @@ dependencies {
 gradlePlugin {
     plugins {
         register("androidApp") {
-            id = "mutimodulesample.android.application"
+            id = "blooddonation.android.application"
             implementationClass = "plugins.AndroidAppConventionPlugin"
         }
         register("androidAppCompose") {
-            id = "mutimodulesample.android.app.compose"
+            id = "blooddonation.android.app.compose"
             implementationClass = "plugins.AndroidAppComposeConventionPlugin"
         }
         register("androidLibCompose") {
-            id = "mutimodulesample.android.lib.compose"
+            id = "blooddonation.android.lib.compose"
             implementationClass = "plugins.AndroidLibComposeConventionPlugin"
         }
         register("androidLib") {
-            id = "mutimodulesample.android.library"
+            id = "blooddonation.android.library"
             implementationClass = "plugins.AndroidLibConventionPlugin"
         }
 
         register("androidFeature") {
-            id = "mutimodulesample.android.feature"
+            id = "blooddonation.android.feature"
             implementationClass = "plugins.AndroidFeatureConventionPlugin"
         }
 
         register("hilt") {
-            id = "mutimodulesample.android.hilt"
+            id = "blooddonation.android.hilt"
             implementationClass = "plugins.HiltConventionPlugin"
         }
     }

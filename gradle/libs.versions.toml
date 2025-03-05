@@ -23,7 +23,7 @@ hiltExt = "1.2.0"
 androidxCoreSplashscreen = "1.0.1"
 
 # Plugins
-android-application = "8.1.4"
+android-application = "8.7.0"
 android-kotlin = "2.0.0"
 appcompat = "1.7.0"
 material = "1.12.0"
@@ -80,11 +80,11 @@ ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 
 # Plugins defined by this project
-mutimodulesample-android-application = { id = "mutimodulesample.android.application", version = "unspecified" }
-mutimodulesample-android-app-compose = { id = "mutimodulesample.android.app.compose", version = "unspecified" }
-mutimodulesample-android-library = { id = "mutimodulesample.android.library", version = "unspecified" }
-mutimodulesample-android-lib-compose = { id = "mutimodulesample.android.lib.compose", version = "unspecified" }
-mutimodulesample-android-feature = { id = "mutimodulesample.android.feature", version = "unspecified" }
-mutimodulesample-android-hilt = { id = "mutimodulesample.android.hilt", version = "unspecified" }
+blooddonation-android-application = { id = "blooddonation.android.application", version = "unspecified" }
+blooddonation-android-app-compose = { id = "blooddonation.android.app.compose", version = "unspecified" }
+blooddonation-android-library = { id = "blooddonation.android.library", version = "unspecified" }
+blooddonation-android-lib-compose = { id = "blooddonation.android.lib.compose", version = "unspecified" }
+blooddonation-android-feature = { id = "blooddonation.android.feature", version = "unspecified" }
+blooddonation-android-hilt = { id = "blooddonation.android.hilt", version = "unspecified" }
 
 

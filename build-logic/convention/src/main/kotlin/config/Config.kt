@@ -7,10 +7,10 @@ object Config {
         minSdkVersion = 24,
         targetSdkVersion = 34,
         compileSdkVersion = 34,
-        applicationId = "com.sample.muti_modulesample",
+        applicationId = "com.blood.donation",
         versionCode = 1,
         versionName = "1.0",
-        nameSpace = "com.sample.muti_modulesample"
+        nameSpace = "com.blood.donation"
     )
     val jvm = JvmConfig(
         javaVersion = JavaVersion.VERSION_17,
